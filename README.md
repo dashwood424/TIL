@@ -8,7 +8,7 @@
 * **:file_folder:Spring**
 * **:file_folder:Blockchain**
 
-##### **2019/08/18** 고민 or 나아갈 길:thought_balloon:
+#### **2019/08/18** 고민 or 나아갈 길:thought_balloon:
 * 좀 더 밀도있게 PS하기
  * 7월 초와 같은 속도와 탄력이 붙지 않는다:cry:
 * 더 나은 commit message는 어떻게 써야 할까
