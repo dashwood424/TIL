@@ -8,6 +8,7 @@
 * **:file_folder:Data Science**
 * **:file_folder:Java**
 * **:file_folder:Blockchain**
+* **:file_folder:Math**
 
 #### **2019/08/18** 고민 or 나아갈 길:thought_balloon:
 * 좀 더 밀도있게 PS하기
