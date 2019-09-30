@@ -10,20 +10,5 @@
 * **:file_folder:Blockchain**
 * **:file_folder:Math**
   * 선형대수학(https://www.youtube.com/playlist?list=PLxMkK1K0XECOj2sZG-gCk-CjvZhJ_75I4) 듣고 정리(2019/09/04~2019/09/05)
-
-#### **2019/08/18** 고민 or 나아갈 길:thought_balloon:
-* 좀 더 밀도있게 PS하기
-  * 7월 초와 같은 속도와 탄력이 붙지 않는다:cry:
-* 더 나은 commit message는 어떻게 써야 할까
-  * TIL말고 플젝다운 플젝할때 어떻게 써야 하지..? 지금은 좀 유치하다
-* Side project 언제 어떻게 뭐 하지?
-
-#### **2019/08/27** 고민 or 나아갈 길:thought_balloon:
-* 자바를 심도있게 공부하자
-  * JVM구조, 디자인 패턴 등
-  * 2019/09/09부터 시작하기
-* PS 다양한 언어로 풀어보기
-
-#### **2019/09/18** 고민 or 나아갈 길:thought_balloon:
-* 깃 잘쓰고 싶다..
-* 새로운게 등장하면 빨리 건드려보자
+* **:file_foldef:Data Structure**
+  * 자료구조 구현 정리
