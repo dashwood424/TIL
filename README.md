@@ -22,6 +22,7 @@
   * 선형대수학(https://www.youtube.com/playlist?list=PLxMkK1K0XECOj2sZG-gCk-CjvZhJ_75I4) 듣고 정리(2019/09/04~2019/09/05)
 * **:file_folder:etc**
 
+### 1일 1커밋 :four_leaf_clover: 오늘 공부한건 오늘 정리:pencil:
 <details>
  <summary> :calendar: 2020년 1월</summary>
 <div markdown="1">
