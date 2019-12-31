@@ -1,6 +1,5 @@
 # :woman_technologist: TIL
 ### :books: Today I Learned :books:
---------------------------------------
 * **:file_folder:PS**
   * 2020/12/31 전에 코포 보라닉달기 :sunglasses:
   * 백준 [500등](https://www.acmicpc.net/user/jaq0424) 안에 들기
@@ -24,7 +23,6 @@
 * **:file_folder:etc**
 
 ### 1일 1커밋 :four_leaf_clover: 오늘 공부한건 오늘 정리:pencil:
---------------------------------------------------------------
 <details>
  <summary> :calendar: 2020년 1월</summary>
 <div markdown="1">
