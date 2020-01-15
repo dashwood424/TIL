@@ -1,6 +1,6 @@
 # :woman_technologist: TIL
 ### :books: Today I Learned :books:
-* **:file_folder:PS**
+* **:file_folder:[PS](https://github.com/sooooojinlee/TIL/tree/master/PS)**
   * 2020/12/31 전에 코포 보라닉달기 :sunglasses:
   * 백준 [500등](https://www.acmicpc.net/user/jaq0424) 안에 들기
   * 매일 1문제 이상
