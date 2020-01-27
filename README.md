@@ -12,7 +12,7 @@
   * deeplearning.ai 듣고 정리
 * **:file_folder:git**
 * **:file_folder:Java**
-* **:file_folder:Javascripts**
+* **:file_folder:Javascript**
 * **:file_folder:Python**
 * **:file_folder:C++14/C++17**
 * **:file_folder:CS**
