@@ -35,5 +35,13 @@
 ##### 200129
 * 17070 파이프 옮기기, 15686 치킨배달, 16637 괄호 추가하기 다시 풂
 * 1413 제 1종 스털링 수...? :thinking:
+##### 200130
+* 17406 배열 돌리기4
+  * algorithm 헤더에 rotate 같은 것도 있던데... 
+  for문으로 삽질안하고
+  ```rotate(group.rbegin(), group.rbegin()+1, group.rend())```
+  같은 방법도 있음...:innocent:
+  * 기출 중에 톱니바퀴랑 비슷한 듯
+  * algorithm, tuple 헤더 없이 하는 ps 머리에 쥐난다 :woman_facepalming:
 </div>
 </details>
