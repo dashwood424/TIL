@@ -11,6 +11,7 @@
 * **:file_folder:ML/DL**
   * deeplearning.ai 듣고 정리
 * **:file_folder:git**
+  * [Git 사용 중 자주 만나는 이슈 정리](https://parksb.github.io/article/28.html)
 * **:file_folder:Java**
 * **:file_folder:Javascript**
 * **:file_folder:Python**
@@ -45,7 +46,7 @@
   * algorithm, tuple 헤더 없이 하는 ps 머리에 쥐난다 :woman_facepalming:
 * 15684 사다리 조작 다시 풂
 * 16968 차량 번호판
-##### 200131 
-
+##### 200131 금
+* PPHUB 예쁘다.. 위젯에 잔디밭 깔리는거:relaxed:
 </div>
 </details>
