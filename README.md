@@ -39,8 +39,8 @@
 ##### 200130 목
 * 17406 배열 돌리기4
   * algorithm 헤더에 rotate 같은 것도 있던데... 
-  for문으로 삽질안하고
-  ```rotate(group.rbegin(), group.rbegin()+1, group.rend())```
+  for문으로 삽질안하고  
+  ```rotate(group.rbegin(), group.rbegin()+1, group.rend())```  
   같은 방법도 있음...:innocent:
   * 기출 중에 톱니바퀴랑 비슷한 듯
   * algorithm, tuple 헤더 없이 하는 ps 머리에 쥐난다 :woman_facepalming:
@@ -77,5 +77,32 @@
 * 16932 모양 만들기
   * N * M인 모든 칸에서 BFS를 수행하는데 걸리는 시간 복잡도 O(NMNM) -> 1<=N, M <=1000 이므로 O(1000^4)
   * 모든 칸을 1로 바꿔가면서 BFS를 할 수 없다
+* 17086 아기 상어 2
+
+##### 200205 수
+* 4991 로봇 청소기
+* 2003 수들의 합 2
+  * O(N^3) -> i를 정하고 j를 정함  
+  ```
+  for(int i=0; i<n; i++) {
+    for(int j=i; j<n; j++) {
+      int sum=0;
+      for(int k=i; k<=j; k++) {
+       sum+=a[k];
+      }
+    }
+  }
+  ```
+  * O(N^2) -> 각각의 i에 대해서 누적
+  ```
+  for(int i=0; i<n; i++) {
+   int sum=0;
+   for(int j=i; j<n; j++) {
+    sum+=a[j];
+   }
+  }
+  ```
+  * O(N) -> 투 포인터
+* 16948 데스 나이트
 </div>
 </details>
