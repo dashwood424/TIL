@@ -23,7 +23,7 @@ using namespace std;
 
 int dx[] = { 0,0,1,-1 };
 int dy[] = { 1,-1,0,0 };
-int a[21][21]; //공간의 상태
+int a[21][21]; 
 int n;
 
 tuple<int, int, int> bfs(int size, int sx, int sy) {
