@@ -48,7 +48,8 @@
 
 - negative anchor에 비해 positive anchor가 적은 문제를 극복하기 위해
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbb80d0a-6412-4389-9b68-e1b11c198c08/1909ED17-9E78-4C42-A117-7EC8931D5165.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbb80d0a-6412-4389-9b68-e1b11c198c08/1909ED17-9E78-4C42-A117-7EC8931D5165.jpeg)
+  ![1909ED17-9E78-4C42-A117-7EC8931D5165](https://user-images.githubusercontent.com/51358226/96603910-760ebc80-132f-11eb-9805-acb6c5fe6fef.jpeg)
+
 
     - $\alpha_t$ : 다른 클래스에 대한 가중치
     - $\gamma$ : positive anchor와 negative anchor의 균형을 맞추기 위한 변수
@@ -63,13 +64,13 @@
     - 클래스 레이블이 거의 변하지 않는 이미지 내 data point의 stochastic transformation set을 정의해야 함
     - MixMatch는 레이블이 없는 각 training sample $u$의 $K$ augmented instance $\hat{\mu_k}$에 대해 $\theta$로 매개변수화 된 현재 모델에 의한 평균 예측 앙상블을 레이블에 대한 guesses 로 사용함
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e80a2e-e716-4d80-bcb0-4675cde73466/185ABB33-23F2-428E-94C9-13E34728B533.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e80a2e-e716-4d80-bcb0-4675cde73466/185ABB33-23F2-428E-94C9-13E34728B533.jpeg)
+    ![185ABB33-23F2-428E-94C9-13E34728B533](https://user-images.githubusercontent.com/51358226/96603996-8de64080-132f-11eb-921d-f3b00faeb624.jpeg)
 
     guessed label은 training target으로 사용되기 전에 sharpening operator에 의해 변환됨
 
     L 클래스의 i 번째는 아래와 같이 정의
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/686c8cf8-9d8a-4675-b468-5bdcb2912beb/A63C5CDE-CDC6-47B2-96EB-D56B3E136461.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/686c8cf8-9d8a-4675-b468-5bdcb2912beb/A63C5CDE-CDC6-47B2-96EB-D56B3E136461.jpeg)
+    ![A63C5CDE-CDC6-47B2-96EB-D56B3E136461](https://user-images.githubusercontent.com/51358226/96604089-abb3a580-132f-11eb-8e16-08ebb3d8acad.jpeg)
 
     - $T$ → 0 으로 output이 one-hot-vector 가 됨
     - sharpening operation은 모델이 암시적으로 레이블이 없는 데이터에 대해 낮은 엔트로피 예측을 출력하도록 강제함
@@ -77,7 +78,7 @@
         - "Mixup: Beyond empirical risk minimization", ICVR 2018
     - $(x, y)$가 있는 레이블이 지정된(또는 레이블이 없는) data point가 주어지면 MixUp augmentation은 레이블이 지정된 다른 training example $(x^{'}, y^{'})$와 stochastic linear interpolation 을 생성함
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/989c6dd0-1977-405c-ba23-e4ac851c29ef/70C98529-6B3B-4BA4-A5FB-3AE210C09CBE.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/989c6dd0-1977-405c-ba23-e4ac851c29ef/70C98529-6B3B-4BA4-A5FB-3AE210C09CBE.jpeg)
+    ![70C98529-6B3B-4BA4-A5FB-3AE210C09CBE](https://user-images.githubusercontent.com/51358226/96604155-be2ddf00-132f-11eb-9e69-c293955364bd.jpeg)
 
     - 레이블이 있는 데이터와 없는 데이터 모두에서 supervision signal 을 사용하여 augmented된 training example 들을 얻은 다음 supervised objectives를 사용하여 모델 매개 변수를 학습할 수 있음
 
@@ -85,7 +86,7 @@
 
 - focal loss 의 일반화를 통해 SSL 프레임 워크에서 발생하는 soft training target을 대상으로 detection model을 훈련
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4302623-aa5d-4517-8f04-70c8ef159ea8/D62D2532-688E-4E6B-A9F5-20A41B5D276B.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4302623-aa5d-4517-8f04-70c8ef159ea8/D62D2532-688E-4E6B-A9F5-20A41B5D276B.jpeg)
+![D62D2532-688E-4E6B-A9F5-20A41B5D276B](https://user-images.githubusercontent.com/51358226/96604221-d140af00-132f-11eb-97ef-333d9f663dc2.jpeg)
 
 ### 3.1. Soft-target Focal Loss
 
@@ -133,7 +134,8 @@
     - 그래서 anchor level에서 training signal을 mix하는 것을 제안
     - 각 anchor에 대한 training target과 함께 동일한 크기의 두 개의 이미지가 제공되면 augmented sample 생성
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddea658e-ac84-453f-aff4-a49a435c55d2/4C1ADB8B-2F1D-40A1-9FF1-C3DB4048471B.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddea658e-ac84-453f-aff4-a49a435c55d2/4C1ADB8B-2F1D-40A1-9FF1-C3DB4048471B.jpeg)
+    ![4C1ADB8B-2F1D-40A1-9FF1-C3DB4048471B](https://user-images.githubusercontent.com/51358226/96604284-e61d4280-132f-11eb-97e5-169cd2dc72b7.jpeg)
+
 
     - Image-level MixUp은 병변 탐지 작업에서 보다 직관적인 해석을 제공하며, 목표는 background texture와 병변을 구별하는 것
     - anchor-to-anchor mixup에서는 모델이 altitude training 아이디어와 유사하게 일반적인 background noise와 강한 background noise가 혼합된 병변을 감지할 수 있어야 함
