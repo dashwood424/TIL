@@ -1,6 +1,4 @@
 # :woman_technologist: TIL
-
-
 ## 분류
 ### Data Structure
 * ArrayList C 구현
