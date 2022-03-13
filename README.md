@@ -1,8 +1,5 @@
 # :woman_technologist: TIL
 
-## 작성 규칙
-* 매일 의미 있는 커밋을 한다.
-* 레퍼런스를 명시한다.
 
 ## 분류
 ### Data Structure
